@@ -14,7 +14,7 @@ header {
 
 header::before {
   content: "";
-  background: url("../img/water.jpg") no-repeat center center/cover;
+  background: rgb(170, 191, 248);
   position: absolute;
   opacity: 0.3;
   top: 0;
