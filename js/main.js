@@ -3,7 +3,7 @@ let hours = document.getElementById("hours");
 let minutes = document.getElementById("minutes");
 let seconds = document.getElementById("seconds");
 
-let newyear = new Date("Jan 1,2023 00:00:00").getTime();
+let newyear = new Date("Oct 2,2023 00:00:00").getTime();
 updatefun();
 function updatefun() {
   let now = new Date().getTime();
