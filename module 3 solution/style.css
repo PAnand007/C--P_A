@@ -1,0 +1,115 @@
+body{
+	font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+.container {
+    width: 100%;
+  }
+/** HEADER **/
+#header-nav {
+  background-color: #5A5A5A;
+  border-radius: 0;
+  border: 3px solid #4E4D4D;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar-brand{
+  padding-top: 14px;
+}
+.navbar-brand h1 { /* food,llc */ 
+  font-family: initial;
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+  #nav-list {
+  font-family: 'lora', sans-serif;
+  font-size: 1.1em ;
+  font-weight: bold;
+  margin-top: 2px;
+  margin-bottom:2px;
+  color: black;
+  text-align: center;
+  background: white;
+  position: relative;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+ .navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+#main-content.container{
+  background: #white;
+}
+.jumbotron{
+  padding: 0;
+  margin: 0;
+  background: white;
+}
+ #deliver {
+ font-family: italic;
+  letter-spacing: .1em;
+  color: black;
+  background: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  line-height: .75;
+  }
+  /* HOME PAGE */
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 400px;
+  width: 100%;
+  margin-bottom: 30px;
+  background:#A7A6A6 ;
+  opacity: .9;
+  position: relative;
+  border: 2px solid ;
+  background-position: center;
+   height: auto;
+}
+#chicken-tile span, #beef-tile span, #sushi-tile span {
+  font-family: cursive;
+  position: absolute;
+  text-align: center;
+  margin-top: 6px;
+  width: 100%;
+  font-size: 1.2em;
+  color: #100F0F;
+  font-weight: bold;
+  text-shadow: 1px #222;
+}
+#home-tiles p{
+ color: black ;
+ margin-top:36px ;
+ text-align: left;
+ padding: 2px 8px 4px 8px;
+ font-family: serif;
+ font-style: italic;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-right: 18px;
+  padding-left: 18px;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) {
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+}
