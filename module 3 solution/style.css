@@ -15,7 +15,7 @@ body{
 }
 .navbar-brand{
   padding-top: 14px;
-	text-align: center;
+	
 }
 .navbar-brand h1 { /* food,llc */ 
   font-family: initial;
@@ -27,6 +27,7 @@ body{
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+	text-align: center;
 }
   #nav-list {
   font-family: 'lora', sans-serif;
